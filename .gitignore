@@ -3,8 +3,12 @@
 *.o
 *.out
 
-# LLM interaction log (private development audit)
+# Private documentation and LLM logs
 llm_log.md
+EXPLANATION.md
+explanation*
+report_v2*
+*.docx
 
 # Large raw datasets and binary image archives (>100MB blocked by GitHub)
 images_N*.bin
