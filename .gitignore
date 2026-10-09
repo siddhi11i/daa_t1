@@ -1,0 +1,21 @@
+# Compiled binaries and object files
+*.exe
+*.o
+*.out
+
+# LLM interaction log (private development audit)
+llm_log.md
+
+# Large raw datasets and binary image archives (>100MB blocked by GitHub)
+images_N*.bin
+val2017/
+
+# Temporary run outputs
+out_*.txt
+*.tmp
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
